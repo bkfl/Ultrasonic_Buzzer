@@ -7,7 +7,6 @@ Timer timer;
 
 // Buzzer
 PwmOut buzzer(p25);
-Ticker ticker;
 
 void updateDistance(int distance) {
     if (distance > 180) {
